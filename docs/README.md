@@ -57,3 +57,10 @@ You also need standart Python math library to get math.pi
    - Добавлен новый файл rectangle.py
 4. commit 9efccab6f684bf1e0590a2545782720ecc3039e1
    - Исправлена ошибка в rectangle.py и добавлен файл triangle.py
+
+# Testing
+Added tests, to test any file write:
+```cmd
+python.exe -m unittest <file_name>.py
+```
+- Ex.: python.exe -m unittest rectangle.py
